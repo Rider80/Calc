@@ -6,7 +6,7 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) throws Exception {
-        File file = new File("c:\\Users\\Александр\\Desktop\\input.txt "); //создаём объект file
+        File file = new File("input.txt"); //создаём объект file
         Scanner scanner = new Scanner(file); //сканируем объект file в scanner
         String line = scanner.nextLine(); // из scanner читаем строку с нашими переменными и матзнаком
         String[] calcs = line.split(" "); // создаём массив calcs из разделенных по пробеду символов строки
